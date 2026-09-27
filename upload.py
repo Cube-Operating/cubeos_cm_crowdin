@@ -53,7 +53,6 @@ def upload_translations_crowdin(branch, config_dict, crowdin_path):
             "upload",
             "translations",
             f"--branch={branch}",
-            "--no-translate-hidden",
             "--import-eq-suggestions",
             "--auto-approve-imported",
             f"--config={cfg}",
